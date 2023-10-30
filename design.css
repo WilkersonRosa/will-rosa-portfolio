@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    color: #fff;
+    font: normal 10pt 'ABeeZee';
+}
+#cabecalho-container{
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.2rem;
+    padding-bottom: 3rem;
+    max-width: 100vw;
+}
+.image-container{
+    background-color: #ffffff;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#cabecalho-container img{
+    width: 60vw;
+    padding-bottom: 2rem;
+    position: absolute;
+    top: 100px;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+    
+}
+#cabecalho-container h1{
+    font:normal 20pt 'Press Start 2P';
+    color: #7bff00;
+    
+    text-shadow: 1px -1px 0 #0a7700, 
+    2px -2px 0 #0a7700, 
+    3px -3px 0 #0a7700, 
+    4px -4px 0 #0a7700, 
+    5px -5px 0 #0a7700, 
+    6px -6px 5px rgba(0, 0, 0, 0.55), 
+    6px -6px 1px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+#cabecalho-container h3{
+    position: relative;
+}
+#logo {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#logo:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+#cabecalho-container h3{
+    font: normal 15pt 'Pixelify Sans';
+}
+#sobre-container p{
+    padding-bottom: 0.5rem;
+    
+}
+#sobre-container{
+    background-color: #000;
+    padding: 1rem;
+    max-width: 100vw;
+    padding-top: 5rem;
+
+}
+h2{
+    color: #7bff00;
+    margin-bottom: 1rem;
+}
+#skils-container{
+    padding-top: 5rem;
+    background-color: #000;
+    min-height: 300px;
+    padding: 1rem;
+}
+.skils-adquiridas{
+    display: flex;
+    align-items: center;
+}
+.novas-skils{
+    display: flex;
+    align-items: center;
+}
+.skil-content{
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.skil-content img{
+    max-width: 200px;
+    border-radius: 10px;
+    background-color: #2d3453;
+    border: 1px solid #4c557c;
+}
+#projects{
+     display: flex;
+    flex-wrap: wrap;
+}
+#projetos-container{
+    background-color: #000;
+    padding: 1rem;
+   
+
+}
+
+#projeto-content{
+    background-color: #2d3453;
+    max-width: 240px;
+    min-width: 240px;
+    max-height: 300px;
+    min-height: 300px;
+    padding: 1rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid #4c557c;
+}
+.img-projeto{
+    width: 230px;
+    border-radius: 10px;
+}
+.links img{
+    width: 20px;
+    padding-left: 10px;
+}
+.tecnologias{
+    width: 30px;
+}
